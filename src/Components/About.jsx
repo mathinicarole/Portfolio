@@ -10,13 +10,13 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/portfolio1.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Hey there, Well am Raquel Carole Mathini. I'm a Frontend Developer with a strong understanding of Responsive Web Design and have demonstrated past work experience working in the frontend development industry.I love learning new things and taking risks because I believe thats the best way to grow.I am Highly Skilled in HTML, CSS, JavaScript, Responsive Web Design, React.js and Typescript. I possess good written and oral communication skills, which enable me to explain web app issues in easy-to-understand terms.I also love tech communities.Having to love to make an impact I am involved in a number of communities that help in learning, growth, networking and definately alot of exposure.I am currently learning graphical design, digital marketing and social media management.";
+  "Hello, Well am Raquel Carole Mathini.I solve complex problems while creating some of the most advanced applications in the industry. I collaborate and Communicate with other front-end developers within the company, and tech industry on best practices, new technologies and the changes.I posses Excellent knowledge in React, JavaScript/TypeScript, HTML and CSS.Moreover, I have knowledge in Wordpress, UI/UX design and additional skills in digital marketing and social media management.I Provide mentorship and conduct events as well as organize and speak to fellow developers in various communites since I am a big advocate of inclusion and diversity. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,8 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
+  "React.js",
+  "Typescript/Javascript",
   "User experience",
   "Inclusive design",
+  "Digital Marketing",
   "UI/UX design",
   "Wordpress",
   "Graphic design",
@@ -53,20 +56,24 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "rgb(208, 214, 214)",
           width: "50%",
+          fontWeight: "500",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p style={{ fontWeight: "500", fontSize: "20px " }} className="large">
+          {description}
+        </p>
         <hr />
         <ul
           style={{
             textAlign: "left",
             columns: 2,
+            fontWeight: "500",
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
@@ -77,7 +84,9 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", fontWeight: "400", color: "#4E567E" }}>
+          {detailOrQuote}
+        </p>
       </div>
     </section>
   );

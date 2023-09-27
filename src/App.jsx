@@ -25,9 +25,9 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Caroline Mathini",
-  title: "Web Designer & Software developer",
+  title: " Software developer , UI/UX designer & Web Designer ",
   email: "mathinicarole@gmail.com",
-  gitHub: "https://github.com/mathinicarole",
+  gitHub: "github.com/mathinicarole",
   instagram: "https://www.instagram.com/_ma.thiniii",
   linkedIn: "https://www.linkedin.com/in/mathinicarole/",
   medium: "",
