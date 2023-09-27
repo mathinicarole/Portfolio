@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hey there, Well am Raquel Carole Mathini. I'm a Frontend Developer with a strong understanding of Responsive Web Design and have demonstrated past work experience working in the frontend development industry.I love learning new things and taking risks because I believe thats the best way to grow.I am Highly Skilled in HTML, CSS, JavaScript, Responsive Web Design, React.js and Typescript. I possess good written and oral communication skills, which enable me to explain web app issues in easy-to-understand terms.I also love tech communities.Having to love to make an impact I am involved in a number of communities that help in learning, growth, networking and definately alot of exposure.I am currently learning graphical design, digital marketing and social media management.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -34,8 +34,8 @@ const skillsList = [
   "Web design",
   "User experience",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "UI/UX design",
+  "Wordpress",
   "Graphic design",
 ];
 
